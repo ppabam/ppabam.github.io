@@ -1,13 +1,13 @@
 ---
 home: true
 
-heroImage: /images/hero.webp
-heroImageDark: /images/ninja-turtles.png
+heroImage: /images/bam.png
+heroImageDark: /images/bam2.png
 
-heroText: 'team blog@sunsin.shop'
-title: team.sunsin
+heroText: 'ppabam.sunsin.shop'
+title: ppabam
 
-tagline: We are a professional team that works affectionately, and above all, grows with our colleagues.
+tagline: ppabam's blog
 
 actions:
   - text: tech SHARE
