@@ -10,12 +10,12 @@ export default defineUserConfig({
   lang: 'en-US',
 
   title: 'PPABAM',
-  description: "I'm ppabam, who likes to write codes about interesting things that will surprise the world. P.S. Let's all pay attention to climate change!",
+  description: "빠밤 기술블로그. Let's all pay attention to climate change! PPABAM",
 
   head: [
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:title', content: 'ppabam blog' }],
-    ['meta', { property: 'og:description', content: "I'm ppabam, who likes to write codes about interesting things that will surprise the world. P.S. Let's all pay attention to climate change!" }],
+    ['meta', { property: 'og:description', content: "빠밤 기술블로그. Let's all pay attention to climate change! PPABAM" }],
     ['meta', { property: 'og:image', content: 'https://ppabam.github.io/images/repository-open-graph-ppabam.png' }],
     ['meta', { property: 'og:url', content: 'https://ppabam.sunsin.shop' }],
   ],
