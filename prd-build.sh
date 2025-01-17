@@ -2,4 +2,6 @@
 pnpm docs:build
 cp CNAME docs/
 cp robots.txt docs/
-# cp naver7b7f7dc6cce8eb9498e18ebf4ae99fc9.html docs/
+cp naver2f072a11f3e7a44ee5145de169e6ea1a.html docs/
+git add .
+git commit -m "build: update docs"
