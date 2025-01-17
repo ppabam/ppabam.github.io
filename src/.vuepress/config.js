@@ -9,15 +9,15 @@ export default defineUserConfig({
   
   lang: 'en-US',
 
-  title: 'team SUNSIN',
-  description: "We are a professional team that works affectionately, and above all, grows with our colleagues.",
+  title: 'PPABAM',
+  description: "I'm ppabam, who likes to write codes about interesting things that will surprise the world. P.S. Let's all pay attention to climate change!",
 
   head: [
     ['meta', { property: 'og:type', content: 'website' }],
-    ['meta', { property: 'og:title', content: 'team-blog:sunsin.shop' }],
-    ['meta', { property: 'og:description', content: "We are a professional team that works affectionately, and above all, grows with our colleagues." }],
-    ['meta', { property: 'og:image', content: 'https://sunsin-shop.github.io/images/repository-open-graph-sunsin.png' }],
-    ['meta', { property: 'og:url', content: 'https://sunsin-shop.github.io' }],
+    ['meta', { property: 'og:title', content: 'ppabam blog' }],
+    ['meta', { property: 'og:description', content: "I'm ppabam, who likes to write codes about interesting things that will surprise the world. P.S. Let's all pay attention to climate change!" }],
+    ['meta', { property: 'og:image', content: 'https://ppabam.github.io/images/repository-open-graph-ppabam.png' }],
+    ['meta', { property: 'og:url', content: 'https://ppabam.sunsin.shop' }],
   ],
   
   locales: {
@@ -63,11 +63,11 @@ export default defineUserConfig({
       },
     },
 
-    logo: "/images/ninja-turtles.png",
-    logoDark: "/images/hero.webp",
+    logo: "/images/bam2.png",
+    logoDark: "/images/bam.png",
 
-    repo: "https://github.com/sunsin-shop/sunsin-shop.github.io/discussions",
-    repoLabel: "discussions",
+    // repo: "https://github.com/sunsin-shop/sunsin-shop.github.io/discussions",
+    // repoLabel: "discussions",
 
     contributors: false,
 
@@ -81,36 +81,36 @@ export default defineUserConfig({
     colorModeSwitch: true,
 
     navbar: [
-      { text: "101", link: "https://github.com/ppabam/101/issues" },
-      { text: "recruit", link: "/team/recruit/" },
+      { text: "🚩 flag123", link: "https://flag123.gusuhan.shop" },
+      { text: "📝 resume", link: "/resume/" },
     ],
 
     sidebar: {
       "/": [
         {
-          text: "share",
+          text: "resume",
           collapsible: true,
           children: [
-            "/tech/share/",
+            "/resume/",
           ],
         },
         {
-          text: "team",
+          text: "projects",
           collapsible: true,
           children: [
-            "/team/tiger/",
-            "/team/recruit/",
-            "/team/how2pr/",
-            "/team/tiger2agile/",
+            "/projects/",
+            // "/team/recruit/",
+            // "/team/how2pr/",
+            // "/team/tiger2agile/",
           ],
         },
-        {
-          text: "opensource",
-          collapsible: true,
-          children: [
-            "/tech/share/opensource/",
-          ],
-        },
+        // {
+        //   text: "opensource",
+        //   collapsible: true,
+        //   children: [
+        //     "/tech/share/opensource/",
+        //   ],
+        // },
       ],
     },
   }),
